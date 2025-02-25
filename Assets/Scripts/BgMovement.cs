@@ -5,7 +5,7 @@ using UnityEngine;
 public class BgMovement : MonoBehaviour
 {
     private MeshRenderer meshRenderer;
-    public float animSpeed = 1f;
+    public float animSpeed = 0.5f;
 
     // Start is called before the first frame update
     void Start()

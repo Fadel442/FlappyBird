@@ -5,9 +5,9 @@ using UnityEngine;
 public class SpawnScript : MonoBehaviour
 {
     public GameObject SpawnObject; // Prefab yang akan di-spawn
-    public float spawnRate = 1f;
-    public float minHeight = -1f;
-    public float maxHeight = 1f;
+    public float spawnRate = 2f;
+    public float minHeight = -1500f;
+    public float maxHeight = -2400f;
 
     private void OnEnable()
     {
