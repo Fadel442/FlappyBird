@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PipesMovement : MonoBehaviour
 {
-    public float speed = 500f;
+    public float speed = 800f;
     private float destroyX = -2500f;
     
     void Update()
